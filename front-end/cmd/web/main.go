@@ -49,7 +49,7 @@ func render(w http.ResponseWriter, t string) {
 		BrokerURL: os.Getenv("BROKER_URL"),
 	}
 
-	log.Println("BrokerURL: ", data.BrokerURL)
+	fmt.Println("BrokerURL:", data.BrokerURL)
 
 	if err := tmpl.Execute(w, data); err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)

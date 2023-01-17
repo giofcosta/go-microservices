@@ -43,6 +43,8 @@ func main() {
 	if err != nil {
 		log.Panic(err)
 	}
+
+	log.Printf("Service started on port %s\n", webPort)
 }
 
 func connect() (*amqp.Connection, error) {
