@@ -45,6 +45,7 @@ SELECT pg_catalog.setval('public.user_id_seq', 1, true);
 
 --
 -- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Password: verysecret
 --
 
 ALTER TABLE ONLY public.users
