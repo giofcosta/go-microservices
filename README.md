@@ -1,2 +1,2 @@
-# go-microservices-course
-go microservices course
+# go-microservices
+go microservices
